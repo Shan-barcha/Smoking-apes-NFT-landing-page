@@ -1,0 +1,44 @@
+.hreo-section {
+  background-image: url("../images/heroSectionImage.jpg~");
+}
+@import url(//db.onlinewebfonts.com/c/75f75d5b2528cf563602475c14021fab?family=Cheee+Bingbong);
+
+@font-face {
+  font-family: "Cheee Bingbong";
+  src: url("//db.onlinewebfonts.com/t/75f75d5b2528cf563602475c14021fab.eot");
+  src: url("//db.onlinewebfonts.com/t/75f75d5b2528cf563602475c14021fab.eot?#iefix") format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/75f75d5b2528cf563602475c14021fab.woff2") format("woff2"),
+      url("//db.onlinewebfonts.com/t/75f75d5b2528cf563602475c14021fab.woff") format("woff"),
+      url("//db.onlinewebfonts.com/t/75f75d5b2528cf563602475c14021fab.ttf") format("truetype"),
+      url("//db.onlinewebfonts.com/t/75f75d5b2528cf563602475c14021fab.svg#Cheee Bingbong") format("svg");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn-primary {
+  @apply py-2 px-4 mr-2 mb-2 text-sm font-medium text-white rounded-full border border-gray-200  hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700  bg-blue-800 sm:bg-green-700 md:bg-red-800 lg:bg-yellow-300;
+}
+
+.nav-link{
+    @apply block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0
+} */
+
+#join-section li{
+  list-style: none;
+  position: relative
+}
+#join-section .dot{
+  font-size: 47px;
+  line-height: 1px;
+  margin-right: 5px;
+  position: absolute;
+  top: -4px
+}
+
+#join-section li::marker {
+  position: absolute;
+  left: 0;
+  margin-right: 0px !important;
+  color: red;
+}
